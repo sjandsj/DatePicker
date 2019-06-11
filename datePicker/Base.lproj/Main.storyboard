@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="datePicker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="21" translatesAutoresizingMaskIntoConstraints="NO" id="c2t-qc-ZuC">
+                                <rect key="frame" x="69" y="255" width="236" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="92d-tC-BD5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="34"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="D7h-84-aMi">
+                                <rect key="frame" x="69" y="493" width="236" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="B0E-0s-32K"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="34"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="f8u-0f-3dc">
+                                <rect key="frame" x="69" y="419" width="236" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="l3g-6e-FV7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="34"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="CqH-sq-PaW">
+                                <rect key="frame" x="69" y="332" width="236" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="3A6-uk-msE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="34"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bi0-Mr-P6d">
+                                <rect key="frame" x="131" y="595" width="113" height="41"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                <state key="normal" title="Click Here">
+                                    <color key="titleColor" red="1" green="0.20307239975304869" blue="0.20007004077170731" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickHereButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="obE-RO-xGS"/>
+                                </connections>
+                            </button>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="10" translatesAutoresizingMaskIntoConstraints="NO" id="gXP-NP-kOV">
+                                <rect key="frame" x="0.0" y="31" width="375" height="162"/>
+                                <color key="backgroundColor" red="0.62145820979999999" green="0.72856857639999995" blue="0.9107836788" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <date key="date" timeIntervalSinceReferenceDate="581940299.70357895">
+                                    <!--2019-06-11 10:04:59 +0000-->
+                                </date>
+                            </datePicker>
+                        </subviews>
+                        <color key="backgroundColor" red="0.46037966159999999" green="0.60836301810000004" blue="0.3120642106" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gXP-NP-kOV" secondAttribute="bottom" constant="474" id="1C4-mc-sMi"/>
+                            <constraint firstItem="c2t-qc-ZuC" firstAttribute="centerX" secondItem="gXP-NP-kOV" secondAttribute="centerX" id="1qO-ez-IQ7"/>
+                            <constraint firstItem="c2t-qc-ZuC" firstAttribute="trailing" secondItem="CqH-sq-PaW" secondAttribute="trailing" id="6fo-L8-byA"/>
+                            <constraint firstItem="CqH-sq-PaW" firstAttribute="leading" secondItem="f8u-0f-3dc" secondAttribute="leading" id="A7r-Ok-Ed9"/>
+                            <constraint firstItem="CqH-sq-PaW" firstAttribute="trailing" secondItem="f8u-0f-3dc" secondAttribute="trailing" id="Exw-fp-ATu"/>
+                            <constraint firstItem="c2t-qc-ZuC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="69" id="Hg8-FX-uIi"/>
+                            <constraint firstItem="bi0-Mr-P6d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HjQ-m8-epE"/>
+                            <constraint firstItem="f8u-0f-3dc" firstAttribute="trailing" secondItem="D7h-84-aMi" secondAttribute="trailing" id="HvZ-ZT-R0h"/>
+                            <constraint firstItem="D7h-84-aMi" firstAttribute="top" secondItem="f8u-0f-3dc" secondAttribute="bottom" constant="26" id="Igw-HW-kXE"/>
+                            <constraint firstItem="c2t-qc-ZuC" firstAttribute="leading" secondItem="CqH-sq-PaW" secondAttribute="leading" id="JNT-FT-E1C"/>
+                            <constraint firstItem="f8u-0f-3dc" firstAttribute="top" secondItem="CqH-sq-PaW" secondAttribute="bottom" constant="30" id="KZQ-cZ-wk5"/>
+                            <constraint firstItem="gXP-NP-kOV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="NFR-CD-4as"/>
+                            <constraint firstAttribute="trailing" secondItem="gXP-NP-kOV" secondAttribute="trailing" id="YDv-CD-cAo"/>
+                            <constraint firstItem="gXP-NP-kOV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="11" id="a0q-fd-nI9"/>
+                            <constraint firstItem="bi0-Mr-P6d" firstAttribute="top" secondItem="D7h-84-aMi" secondAttribute="bottom" constant="59" id="hZe-0s-obp"/>
+                            <constraint firstItem="CqH-sq-PaW" firstAttribute="top" secondItem="c2t-qc-ZuC" secondAttribute="bottom" constant="21" id="qlh-xR-EwV"/>
+                            <constraint firstItem="f8u-0f-3dc" firstAttribute="leading" secondItem="D7h-84-aMi" secondAttribute="leading" id="sZW-7c-1AX"/>
+                            <constraint firstItem="c2t-qc-ZuC" firstAttribute="top" secondItem="gXP-NP-kOV" secondAttribute="bottom" constant="62" id="wtF-37-8Jm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="datePickerController" destination="gXP-NP-kOV" id="rqv-R5-vRn"/>
+                        <outlet property="formatFourLabel" destination="D7h-84-aMi" id="ikC-Gw-pZP"/>
+                        <outlet property="formatOneLAbel" destination="c2t-qc-ZuC" id="jWW-rm-5bJ"/>
+                        <outlet property="formatThreeLabel" destination="f8u-0f-3dc" id="en5-hG-abK"/>
+                        <outlet property="formatTwoLabel" destination="CqH-sq-PaW" id="P8h-o2-GKk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-151" y="11"/>
+        </scene>
+    </scenes>
+</document>
